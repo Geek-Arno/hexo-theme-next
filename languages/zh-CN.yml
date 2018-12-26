@@ -15,6 +15,7 @@ menu:
   sitemap: 站点地图
   commonweal: 公益 404
   links: 书签
+  photos: 相册
 sidebar:
   overview: 站点概览
   toc: 文章目录
@@ -45,7 +46,7 @@ page:
   totally: 共有
   tags: 标签
 footer:
-  powered: "由 %s 强力驱动"
+  powered: 'Hosted by %s'
   theme: 主题
   total_views: 总访问量
   total_visitors: 总访客量

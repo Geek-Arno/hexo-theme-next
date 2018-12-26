@@ -56,6 +56,9 @@ NexT.utils = NexT.$u = {
     $(function() {
       $(window).bind('hashchange', function() {
         var tHash = location.hash;
+        if(tHash.match('#&gid=')) {
+          return;
+        };
         if (tHash !== '' && !tHash.match(/%\S{2}/)) {
           $(tNav + 'li:has(a[href="' + tHash + '"])').addClass('active').siblings().removeClass('active');
           $(tHash).addClass('active').siblings().removeClass('active');
@@ -284,7 +287,7 @@ NexT.utils = NexT.$u = {
       ? (sidebarPadding * 2) + sidebarNavHeight + sidebarOffset + this.getSidebarb2tHeight()
       : (sidebarPadding * 2) + (sidebarNavHeight / 2);
     return sidebarSchemePadding;
-  }
+  },
 
 };
 

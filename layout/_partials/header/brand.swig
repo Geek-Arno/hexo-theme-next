@@ -1,4 +1,8 @@
 <div class="site-brand-wrapper">
+  <script>
+  document.write('<iframe id="headband_bg" src="/bghtml/bg'+Math.floor(Math.random()*(14-1+1)+1)+'.html" frameborder="0" height="100%" width="100%" scrolling="no" style="position:absolute"></iframe>');
+  //document.write('<iframe id="headband_bg" src="https://geek-arno.github.io/Arno/a5.html" frameborder="0" height="100%" width="100%" scrolling="no" style="position:absolute"></iframe>');
+  </script>
   <div class="site-meta {% if theme.custom_logo.enabled %}custom-logo{% endif %}">
     {% if theme.custom_logo.image and theme.scheme === 'Muse' %}
       <div class="site-meta-headline">

@@ -14,6 +14,7 @@ menu:
   schedule: 日程表
   sitemap: 站点地图
   commonweal: 公益 404
+  links: 书签
 sidebar:
   overview: 站点概览
   toc: 文章目录
@@ -84,7 +85,7 @@ reward:
   donate: 打赏
   wechatpay: 微信支付
   alipay: 支付宝
-  bitcoin: 比特币
+  bitcoin: QQ
 gitmentbutton: 显示 Gitment 评论
 accessibility:
   nav_toggle: 切换导航栏

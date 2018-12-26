@@ -38,7 +38,7 @@
     </header>
 
     {{ partial('_third-party/github-banner.swig', {}, {cache: theme.cache.enable}) }}
-
+    {% include '_third-party/css-doodle.swig' %}
     <main id="main" class="main">
       <div class="main-inner">
         <div class="content-wrap">

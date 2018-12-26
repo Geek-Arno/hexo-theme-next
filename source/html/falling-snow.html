@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<head>
+    <title>CSS3 falling-snow</title>
+    <style>
+        * {
+            border: 0;
+            padding: 0;
+            margin: 0;
+        }
+        
+        html {
+            width: 100%;
+            height: 100%;
+            background: #e0edf3;
+        }
+        
+        body {
+            background: url("/images/falling-snow/1.png") repeat;
+            animation: snow 18s linear infinite;
+            width: 100%;
+            height: 100%;
+        }
+        
+        body:before {
+            content: " ";
+            display: block;
+            width: 100%;
+            height: 100%;
+            background: url("/images/falling-snow/2.png") repeat;
+            animation: snow 28s linear infinite;
+        }
+        
+        @keyframes snow {
+            0% {
+                background-position-x: 0;
+                background-position-y: 0
+            }
+            50% {
+                background-position-y: 40%
+            }
+            100% {
+                background-position-x: 40%;
+                background-position-y: 80%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+</body>
